@@ -1,0 +1,128 @@
+mstfemk@Earth:~/projects/linux$ mkdir mfe
+mstfemk@Earth:~/projects/linux$ ls
+find  mfe
+mstfemk@Earth:~/projects/linux$ cd mfe
+mstfemk@Earth:~/projects/linux/mfe$ ls
+mstfemk@Earth:~/projects/linux/mfe$ clear
+
+mstfemk@Earth:~/projects/linux/mfe$ sl
+
+Command 'sl' not found, but can be installed with:
+
+sudo apt install sl
+
+mstfemk@Earth:~/projects/linux/mfe$ ls
+baba
+mstfemk@Earth:~/projects/linux/mfe$ sl
+
+Command 'sl' not found, but can be installed with:
+
+sudo apt install sl
+
+mstfemk@Earth:~/projects/linux/mfe$ melekls
+melekls: command not found
+mstfemk@Earth:~/projects/linux/mfe$ mkdir papis
+mstfemk@Earth:~/projects/linux/mfe$ ls
+baba  papis
+mstfemk@Earth:~/projects/linux/mfe$ mkdir melek
+mstfemk@Earth:~/projects/linux/mfe$ ls
+baba  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ mkdir anne
+mstfemk@Earth:~/projects/linux/mfe$ ls 
+anne  baba  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ mkdir bocek
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch kapı
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  kapı  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch anne
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  kapı  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch annem
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  annem  baba  bocek  kapı  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch babam
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  annem  baba  babam  bocek  kapı  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch canımkızım
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  annem  baba  babam  bocek  canımkızım  kapı  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch papis
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  annem  baba  babam  bocek  canımkızım  kapı  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch papisim
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  annem  baba  babam  bocek  canımkızım  kapı  melek  papis  papisim
+mstfemk@Earth:~/projects/linux/mfe$ touch tatlıbocegim
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  annem  baba  babam  bocek  canımkızım  kapı  melek  papis  papisim  tatlıbocegim
+mstfemk@Earth:~/projects/linux/mfe$ mv  annem anne
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  babam  bocek  canımkızım  kapı  melek  papis  papisim  tatlıbocegim
+mstfemk@Earth:~/projects/linux/mfe$ mv babam baba
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  canımkızım  kapı  melek  papis  papisim  tatlıbocegim
+mstfemk@Earth:~/projects/linux/mfe$ mv canımkızım melek/
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  kapı  melek  papis  papisim  tatlıbocegim
+mstfemk@Earth:~/projects/linux/mfe$ mv papisim papis
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  kapı  melek  papis  tatlıbocegim
+mstfemk@Earth:~/projects/linux/mfe$ mv  tatlıbocegim  bocek/
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  kapı  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ rm kapı 
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ mkdir balık
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touchbalıgım
+touchbalıgım: command not found
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch balıgım
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balıgım  balık  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ mv balıgım balı
+balıgım  balık/   
+mstfemk@Earth:~/projects/linux/mfe$ mv balıgım balı
+balıgım  balık/   
+mstfemk@Earth:~/projects/linux/mfe$ mv balıgım balı
+balıgım  balık/   
+mstfemk@Earth:~/projects/linux/mfe$ mv balıgım balıK
+mstfemk@Earth:~/projects/linux/mfe$ LS
+
+Command 'LS' not found, but can be installed with:
+
+sudo apt install sl
+
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  balıK  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balıgim  balık  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ mv balıgim  balık
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ ls balık/
+balıgim
+mstfemk@Earth:~/projects/linux/mfe$ mkdir code 
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  code  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch  mycode
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  code  melek  mycode  papis
+mstfemk@Earth:~/projects/linux/mfe$ mv mycode code
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  code  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ mkdir code2
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  code  code2  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ touch mycode2
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  code  code2  melek  mycode2  papis
+mstfemk@Earth:~/projects/linux/mfe$ mv mycode2 code2
+mstfemk@Earth:~/projects/linux/mfe$ ls
+anne  baba  balık  bocek  code  code2  melek  papis
+mstfemk@Earth:~/projects/linux/mfe$ 
