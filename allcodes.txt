@@ -126,3 +126,53 @@ mstfemk@Earth:~/projects/linux/mfe$ mv mycode2 code2
 mstfemk@Earth:~/projects/linux/mfe$ ls
 anne  baba  balık  bocek  code  code2  melek  papis
 mstfemk@Earth:~/projects/linux/mfe$ 
+
+// test
+
+mstfemk@Earth:~/projects/linux/mfe/test$ clear
+
+mstfemk@Earth:~/projects/linux/mfe/test$ mkdir  papis
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+papis
+mstfemk@Earth:~/projects/linux/mfe/test$ touch baba
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+baba  papis
+mstfemk@Earth:~/projects/linux/mfe/test$ mv baba papis 
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+papis
+mstfemk@Earth:~/projects/linux/mfe/test$ cp papa
+cp: missing destination file operand after 'papa'
+Try 'cp --help' for more information.
+mstfemk@Earth:~/projects/linux/mfe/test$ cp papiş
+cp: missing destination file operand after 'papiş'
+Try 'cp --help' for more information.
+mstfemk@Earth:~/projects/linux/mfe/test$ mv papis/melek
+mv: missing destination file operand after 'papis/melek'
+Try 'mv --help' for more information.
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+papis
+mstfemk@Earth:~/projects/linux/mfe/test$ cp -r papis/ melek
+mstfemk@Earth:~/projects/linux/mfe/test$ cd melek
+mstfemk@Earth:~/projects/linux/mfe/test/melek$ ls
+baba
+mstfemk@Earth:~/projects/linux/mfe/test/melek$ cd ..
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+melek  papis
+mstfemk@Earth:~/projects/linux/mfe/test$ ls melek/
+baba
+mstfemk@Earth:~/projects/linux/mfe/test$ touch sil
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+melek  papis  sil
+mstfemk@Earth:~/projects/linux/mfe/test$ mkdir cop
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+cop  melek  papis  sil
+mstfemk@Earth:~/projects/linux/mfe/test$ cp -r sil sil2
+mstfemk@Earth:~/projects/linux/mfe/test$ cd sil2
+bash: cd: sil2: Not a directory
+mstfemk@Earth:~/projects/linux/mfe/test$ mv sil cop
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+cop  melek  papis  sil2
+mstfemk@Earth:~/projects/linux/mfe/test$ rm sil2
+mstfemk@Earth:~/projects/linux/mfe/test$ ls
+cop  melek  papis
+mstfemk@Earth:~/projects/linux/mfe/test$ rm -r cop
